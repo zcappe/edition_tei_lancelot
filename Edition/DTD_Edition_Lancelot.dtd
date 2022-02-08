@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ENTITY chlr "<choice><abbr>chlr&#x303;</abbr><expan>ch<ex>eva</ex>l<ex>ie</ex>r</expan></choice>">
+<!ENTITY mlt "<choice><abbr>mlt</abbr><expan>m<ex>o</ex>lt</expan></choice>">
+<!ENTITY par "<choice><abbr>&#xA751;</abbr><expan>p<ex>ar</ex></expan></choice>">
+<!ENTITY et7 "<choice><abbr>&#x204A;</abbr><expan>et</expan></choice>">
+<!ENTITY us9 "<choice><abbr>&#x2079;</abbr><expan>us</expan></choice>">
+<!ENTITY ui "<choice><abbr>&#x365;</abbr><expan>ui</expan></choice>">
+<!ENTITY bien "<choice><abbr>bn&#x303;</abbr><expan>b<ex>ie</ex>n</expan></choice>">
+<!ENTITY G "<choice><abbr>G</abbr><expan>G<ex>auvain</ex></expan></choice>">
+<!ENTITY gau "<choice><abbr>Gau&#x303;</abbr><expan>Gau<ex>vain</ex></expan></choice>">
+<!ENTITY granz "<choice><abbr>gn&#x303;z</abbr><expan>g<ex>ra</ex>nz</expan></choice>">
+<!ENTITY quant "<choice><abbr>qn&#x303;t</abbr><expan>q<ex>ua</ex>nt</expan></choice>">
+<!ENTITY que "<choice><abbr>q&#x303;</abbr><expan>q<ex>ue</ex></expan></choice>">
+<!ENTITY uostre "<choice><abbr>ur&#x303;e</abbr><expan>v<ex>ost</ex>re</expan></choice>">
+
+<!ENTITY tilde "&#x303;"> 
+<!ENTITY slong "&#x17F;">
+<!ENTITY pdm "&#x2761;">
+<!ENTITY ydot "&#x1E8F;">
+<!ENTITY isup "&#x365;">
+<!ENTITY ssup "&#x1DE4;">
+
+<!ENTITY j "<choice><orig>i</orig><reg>j</reg></choice>">
+<!ENTITY v "<choice><orig>u</orig><reg>v</reg></choice>">
+<!ENTITY amaj "<choice><orig>a</orig><reg>A</reg></choice>">
+<!ENTITY cmaj "<choice><orig>c</orig><reg>C</reg></choice>">
+<!ENTITY hmaj "<choice><orig>h</orig><reg>H</reg></choice>">
+<!ENTITY nmaj "<choice><orig>n</orig><reg>N</reg></choice>">
+<!ENTITY rmaj "<choice><orig>r</orig><reg>R</reg></choice>">
+<!ENTITY smaj "<choice><orig>&slong;</orig><reg>S</reg></choice>">
+<!ENTITY deuxpoints "<choice><orig>:</orig><reg>!</reg></choice>">

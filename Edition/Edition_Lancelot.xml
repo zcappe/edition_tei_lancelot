@@ -1,0 +1,755 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "DTD_Edition_Lancelot.dtd">
+<?xml-model href="RNG-Edition_Lancelot.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="RNG_Edition_Lancelot.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+   xmlns:nt="http://www.example.com/ns/nonTEI">
+   
+   <teiHeader>
+      
+      <fileDesc>
+         
+         <titleStmt>
+            <title>Edition numérique du Manuscrit Français 16999</title>
+            <author>Walter Map (1140?-1209?)</author>
+            <editor>
+               <name>Zoé Cappe</name>
+            </editor>
+         </titleStmt>
+         
+         <publicationStmt>
+            <publisher>Ecole des chartes</publisher>
+            <pubPlace>Paris</pubPlace>
+            <date when-iso="2022-02">Février 2022</date>
+         </publicationStmt>
+         
+         <sourceDesc>
+            
+            <msDesc xml:id="ms16999">
+               
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <institution>Bibliothèque nationale de France</institution>
+                  <repository>Département des manuscrits</repository>
+                  <idno>Français 16999</idno>
+                  <msName>Première partie du roman en prose de Lancelot du Lac, de Gautier Map.</msName>
+                  <altIdentifier>
+                     <idno>Saint-Germain français 117</idno>
+                     <note>Ancienne cote</note>
+                  </altIdentifier>
+               </msIdentifier>
+               
+               <head>
+                  <title>Première partie du roman en prose de Lancelot du Lac</title>
+                  <origDate when="1350">XIVe siècle</origDate>
+               </head>
+               
+               <msContents>
+                  <summary>Le manuscrit est incomplet de la fin ; mais, par les derniers mots du dernier feuillet,
+                     on peut voir qu'il ne manque, de la première partie de Lancelot, que la valeur de quelques pages ;
+                     cf., par ex., ms. fr. 110, fol. 236 r°, col. 1, et ms. fr. 111, fol. 157 r°, col. 1.</summary>
+                  <textLang mainLang="fro">Ancien français</textLang>
+                  <msItem>
+                     <locus from="1r" to="219v">Folios 1r à 219v</locus>
+                     <title>Livre de Lancelot du Lac</title>
+                     <incipit>Ci commence le livre de Lancelot du Lac,
+                        qui, a proprement parler, fut appelez Galaad.
+                        En la marche de Gaule et de la petite Bretaigne avoit II
+                        roys anciennement, qui estoient freres germain...</incipit>
+                     <explicit>... si comme li contes a devisé, qu'il era IIII jours sans
+                        avanture trouver, qui a conter face: au quint jour en droit 
+                        prime chevauchoit vers une forest, si avoit osté son hiau[la fin manque]</explicit>
+                  </msItem>
+                  <msItemStruct>
+                     <locus from="101v" to="102v">Folios 101v à 102v</locus>
+                     <title>La dame de Rohestoc</title>
+                     <rubric>Comment une damoisele porte a son col .i. escu de dessous dessus...</rubric>
+                     <explicit>...lors s'en vient la dame a son hostel et dist la dame a sa maisniee ce que la royne
+                        li avoit dit. Mais je ne remaindroie mie fait ele.</explicit>
+                  </msItemStruct>
+                  
+               </msContents>
+               
+               <physDesc>
+                  
+                  <objectDesc>
+                     <supportDesc>
+                        <support>Parchemin</support>
+                        <extent>
+                           <width unit="300"/>
+                           <height unit="426"/>
+                        </extent>
+                        <foliation>291 feuillets.</foliation>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="3" writtenLines="49">3 colonnes de 48 à 51 lignes</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  
+                  <handDesc>
+                     <p>Copiste anonyme</p>
+                  </handDesc>
+                  
+                  <decoDesc>
+                     <decoNote type="miniature">
+                        <p>Miniatures à rubriques, sur fond alternativement bleu, rouille et or.</p>
+                     </decoNote>
+                     <decoNote type="initial">
+                        <p>Des initiales partent des bordures de feuillages le long de la colonne, parfois 
+                           surmontées de personnages.</p>
+                     </decoNote>
+                     <decoNote type="lettrine">Lettrines or, lilas et bleues, sur 2 lignes et ornées de 
+                        feuillages, aux paragraphes.</decoNote>
+                  </decoDesc>
+                  
+                  <bindingDesc>
+                     <binding>
+                        <decoNote type="plats">Reliure veau brun, aux armes de Séguier.</decoNote>
+                        <decoNote type="dos">Dos à 6 nerfs. Dans la deuxième case, inscription "Lancelot du Lac".</decoNote>
+                     </binding>
+                  </bindingDesc>
+                  
+               </physDesc>
+               
+               <history>
+                  
+                  <provenance>
+                     <p>Ancien possesseur: Pierre Séguier (1588-1672)</p>
+                     <p>Ancien possesseur: Henri du Cambout, duc de Coislin et évêque de Metz (1664-1732)</p>
+                     <p>Ancien possesseur: Abbaye de Saint-Germain des Prés</p>
+                     <listBibl>
+                        <head>Bibliographie des ouvrages mentionnant 
+                           le <bibl corresp="#ms16999">manuscrit 16999</bibl>
+                        </head>
+                        <bibl xml:id="Micha1-960">
+                           <idno type="DOI">https://doi.org/10.3406/roma.1960.3216</idno>
+                           <author><persName>Micha Alexandre</persName></author>
+                           <title level="a">Les manuscrits du Lancelot en prose (premier article)</title>
+                           <title level="m">Romania</title>
+                           <date>1960</date>
+                           <biblScope unit="issue">tome 81 n°322</biblScope>
+                           <biblScope unit="page">pp. 145-187</biblScope>
+                        </bibl>
+                        <bibl xml:id="Aniel-2008">
+                           <idno type="ISBN">978-2-503-53426-8</idno>
+                           <author><persName>Jean Pierre ANIEL</persName></author>
+                           <title level="a">"La rubrique et l'image dans le manuscrit médiéval : quelques remarques"</title>
+                           <title level="m">Qu'est-ce que nommer? L'image légendée entre monde monastique et pensée scolastique ; 
+                              actes du colloque du RILMA, Institut Universitaire de France (Paris, INHA, 17 - 18 octobre 2008)</title>
+                           <editor>éditées par Christian HECK</editor>
+                           <pubPlace>Turnhout</pubPlace>
+                           <publisher>Brepols</publisher>
+                           <date>2008</date>
+                           <biblScope unit="page">p. 101-110, cité p.107</biblScope>
+                        </bibl>
+                        <bibl xml:id="Heck-2010">
+                           <idno type="ISBN">978-2-503-53426-8</idno>
+                           <author><persName>Christian Heck</persName></author>
+                           <title level="m">Qu'est-ce que nommer? L'image légendée entre monde monastique et pensée scolastique</title>
+                           <pubPlace>Turnhout</pubPlace>
+                           <publisher>Brepols</publisher>
+                           <date>2010</date>
+                        </bibl>
+                        <bibl xml:id="Medieval-2012">
+                           <idno type="ISBN">978-2-84050-798-7</idno>
+                           <author>
+                              <persName>Cécile Le Cornec-Rochelois</persName>
+                              <persName>Anne Rochebouet</persName>
+                              <persName>Anne Salamon</persName> (dir.)
+                           </author>
+                           <title level="m">Le texte médiéval : de la variante à la récréation</title>
+                           <pubPlace>Paris</pubPlace>
+                           <publisher>PUPS</publisher>
+                           <date>2012</date>
+                           <biblScope unit="page">p.211</biblScope>
+                        </bibl>
+                        <bibl xml:id="Jean-2013">
+                           <idno type="ISBN">978-1-905375-46-2</idno>
+                           <title level="m">Jean Pucelle : innovation and collaboration in manuscript painting</title>
+                           <editor>
+                              <persName>Kyunghee Pyun</persName>
+                              <persName>Anne D. Russakoff</persName>
+                           </editor>
+                           <pubPlace>London</pubPlace>
+                           <publisher>Harvey Miller</publisher>
+                           <date>cop. 2013</date>
+                           <biblScope unit="page">cité p. 119 n32, 122 n55, 129.</biblScope>
+                        </bibl>
+                        <bibl xml:id="Marqueurs-2014">
+                           <author>L.-I. DUMITRESCU</author>
+                           <title level="a">" Le rôle de l'homologie dans quelques armoiries littéraires "</title>
+                           <title level="m">Marqueurs d'identité dans la littérature médiévale : mettre en signe
+                              l'individu et la famille (XIIe-XVe siècles): actes du colloque tenu à Poitiers 
+                              les 17 et 18 novembre 2011</title>
+                           <editor>texte réunis par
+                              <persName>Catalina Girbea</persName>,
+                              <persName>Laurent Hablot</persName> et 
+                              <persName>Raluca Radulescu</persName>
+                           </editor>
+                           <pubPlace>Turnhout</pubPlace>
+                           <publisher>Brepols</publisher>
+                           <date>2014</date>
+                           <biblScope unit="page">p. 129-133, cité p. 131</biblScope>
+                        </bibl>
+                        <bibl xml:id="Whetter-2017">
+                           <idno type="ISBN">978-1-84384-453-2</idno>
+                           <author>K.S. WHETTER</author>
+                           <title level="m">The manuscript and meaning of Malory's'Morte Darthur : rubrication, commemoration, memorialization</title>
+                           <pubPlace>Cambridge</pubPlace>
+                           <publisher>DS Brewer</publisher>
+                           <date>2017</date>
+                           <biblScope unit="page">p. 47</biblScope>
+                        </bibl>
+                     </listBibl>
+                  </provenance>
+               </history>               
+               
+               
+            </msDesc>
+         </sourceDesc>
+         
+      </fileDesc>
+      
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="Artus">
+                  <persName>Le roi Arthur</persName>
+                  <note/>
+               </person>
+               <person xml:id="Guenievre">
+                  <persName>La reine Guenièvre</persName>
+                  <note>Dans cet extrait, elle est nommée uniquement "la royne".</note>
+               </person>
+               <person xml:id="DamedeRohestoc">
+                  <persName>La dame de Rohestoc</persName>
+                  <note/>
+               </person>
+               <person xml:id="Segurades">
+                  <persName>Segurades</persName>
+                  <note>Chevalier.</note>
+               </person>
+               <person xml:id="CaninsliNains">
+                  <persName>Canins li Nains</persName>
+                  <note>Oncle de la cousine de la dame de Rohestoc.</note>
+               </person>
+               <person xml:id="Gauvain">
+                  <persName>Gauvain</persName>
+                  <note>Chevalier et neveu du roi Arthur.</note>
+               </person>
+               <person xml:id="niece">
+                  <persName>la nièce</persName>
+                  <note>Nièce de Canins li Nains et cousine de la dame de Rohestoc.</note>
+               </person>
+               <person xml:id="Hector">
+                  <persName>Hector</persName>
+                  <note>Chevalier, amant de la nièce de Canins li Nains.</note>
+               </person>
+               <person xml:id="senechal">
+                  <persName>la sénéchal</persName>
+                  <note/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      
+   </teiHeader>
+   
+   <facsimile>
+      <surfaceGrp>
+         <surface type="f101v">
+            <graphic url="lancelot_101v.JPEG" width="1024px" height="1387px"/>
+            <zone xml:id="l1" ulx="789" uly="886" lrx="897" lry="904"/>
+            <zone xml:id="l2" ulx="716" uly="902" lrx="899" lry="919"/>
+            <zone xml:id="l3" ulx="717" uly="921" lrx="905" lry="934"/>
+            <zone xml:id="l4" ulx="715" uly="938" lrx="897" lry="952"/>
+            <zone xml:id="l5" ulx="720" uly="954" lrx="909" lry="968"/>
+            <zone xml:id="l6" ulx="719" uly="971" lrx="911" lry="987"/>
+            <zone xml:id="l7" ulx="717" uly="989" lrx="909" lry="1003"/>
+            <zone xml:id="l8" ulx="717" uly="1007" lrx="908" lry="1022"/>
+            <zone xml:id="l9" ulx="718" uly="1024" lrx="907" lry="1040"/>
+            <zone xml:id="l10" ulx="716" uly="1043" lrx="904" lry="1057"/>
+            <zone xml:id="l11" ulx="719" uly="1059" lrx="909" lry="1076"/>
+            <zone xml:id="l12" ulx="717" uly="1078" lrx="832" lry="1094"/>
+         </surface>
+         
+         <surface type="f102r">
+            <graphic url="lancelot_102r.JPEG"/>
+            <zone xml:id="enluminure" points=" 100,87  379,94  387,443  344,444  345,418  153,412  156,1063  172,1102  211,1106  279,1090  319,1113  320,1146  282,1165  244,1158  212,1142  164,1135  137,1110  123,1043  96,902  88,619 "/>
+            <zone xml:id="initale" points=" 151,413  256,412  257,526  153,527 "/>
+            <zone xml:id="l13" ulx="251" uly="418" lrx="345" lry="436"/>
+            <zone xml:id="l14" ulx="252" uly="438" lrx="342" lry="451"/>
+            <zone xml:id="l15" ulx="250" uly="453" lrx="336" lry="468"/>
+            <zone xml:id="l16" ulx="251" uly="470" lrx="343" lry="485"/>
+            <zone xml:id="l17" ulx="254" uly="490" lrx="338" lry="503"/>
+            <zone xml:id="l18" ulx="254" uly="506" lrx="337" lry="521"/>
+            <zone xml:id="l19" ulx="153" uly="524" lrx="334" lry="540"/>
+            <zone xml:id="l20" ulx="154" uly="539" lrx="337" lry="557"/>
+            <zone xml:id="l21" ulx="154" uly="558" lrx="341" lry="573"/>
+            <zone xml:id="l22" ulx="153" uly="572" lrx="336" lry="591"/>
+            <zone xml:id="l23" ulx="154" uly="594" lrx="336" lry="610"/>
+            <zone xml:id="l24" ulx="155" uly="611" lrx="338" lry="628"/>
+            <zone xml:id="l25" ulx="158" uly="625" lrx="337" lry="643"/>
+            <zone xml:id="l26" ulx="155" uly="642" lrx="341" lry="661"/>
+            <zone xml:id="l27" ulx="158" uly="662" lrx="338" lry="678"/>
+            <zone xml:id="l28" ulx="157" uly="676" lrx="341" lry="696"/>
+            <zone xml:id="l29" ulx="342" uly="712" lrx="157" lry="697"/>
+            <zone xml:id="l30" ulx="156" uly="713" lrx="344" lry="733"/>
+            <zone xml:id="l31" ulx="156" uly="734" lrx="348" lry="752"/>
+            <zone xml:id="l32" ulx="157" uly="753" lrx="345" lry="767"/>
+            <zone xml:id="l33" ulx="156" uly="770" lrx="344" lry="788"/>
+            <zone xml:id="l34" ulx="157" uly="789" lrx="337" lry="805"/>
+            
+            <zone xml:id="l35" ulx="155" uly="805" lrx="346" lry="823"/>
+            <zone xml:id="l36" ulx="155" uly="823" lrx="343" lry="838"/>
+            <zone xml:id="l37" ulx="155" uly="840" lrx="339" lry="855"/>
+            <zone xml:id="l38" ulx="155" uly="857" lrx="344" lry="876"/>
+            <zone xml:id="l39" ulx="158" uly="878" lrx="345" lry="892"/>
+            <zone xml:id="l40" ulx="155" uly="893" lrx="342" lry="913"/>
+            <zone xml:id="l41" ulx="152" uly="912" lrx="344" lry="926"/>
+            <zone xml:id="l42" ulx="157" uly="926" lrx="345" lry="945"/>
+            <zone xml:id="l43" ulx="155" uly="944" lrx="343" lry="963"/>
+            <zone xml:id="l44" ulx="158" uly="964" lrx="343" lry="979"/>
+            <zone xml:id="l45" ulx="156" uly="980" lrx="340" lry="996"/>
+            <zone xml:id="l46" ulx="157" uly="996" lrx="341" lry="1014"/>
+            <zone xml:id="l47" ulx="158" uly="1015" lrx="346" lry="1030"/>
+            <zone xml:id="l48" ulx="156" uly="1029" lrx="340" lry="1048"/>
+            <zone xml:id="l49" ulx="154" uly="1045" lrx="344" lry="1067"/>
+            <zone xml:id="l50" ulx="157" uly="1067" lrx="341" lry="1084"/>
+            
+            <zone xml:id="l51" ulx="388" uly="199" lrx="570" lry="216"/>
+            <zone xml:id="l52" ulx="389" uly="219" lrx="572" lry="235"/>
+            <zone xml:id="l53" ulx="390" uly="238" lrx="578" lry="250"/>
+            <zone xml:id="l54" ulx="389" uly="255" lrx="566" lry="269"/>
+            <zone xml:id="l55" ulx="391" uly="273" lrx="568" lry="286"/>
+            <zone xml:id="l56" ulx="389" uly="289" lrx="570" lry="304"/>
+            <zone xml:id="l57" ulx="389" uly="308" lrx="576" lry="321"/>
+            <zone xml:id="l58" ulx="389" uly="325" lrx="581" lry="339"/>
+            <zone xml:id="l59" ulx="390" uly="342" lrx="579" lry="356"/>
+            <zone xml:id="l60" ulx="391" uly="360" lrx="565" lry="375"/>
+            <zone xml:id="l61" ulx="392" uly="379" lrx="569" lry="396"/>
+            <zone xml:id="l62" ulx="391" uly="399" lrx="568" lry="414"/>
+            <zone xml:id="l63" ulx="393" uly="416" lrx="573" lry="434"/>
+            <zone xml:id="l64" ulx="391" uly="436" lrx="574" lry="450"/>
+            <zone xml:id="l65" ulx="391" uly="453" lrx="576" lry="466"/>
+            <zone xml:id="l66" ulx="390" uly="472" lrx="576" lry="482"/>
+            <zone xml:id="l67" ulx="390" uly="487" lrx="571" lry="500"/>
+            <zone xml:id="l68" ulx="390" uly="504" lrx="569" lry="520"/>
+            <zone xml:id="l69" ulx="389" uly="521" lrx="564" lry="536"/>
+            <zone xml:id="l70" ulx="391" uly="537" lrx="559" lry="550"/>
+            <zone xml:id="l71" ulx="390" uly="554" lrx="572" lry="570"/>
+            <zone xml:id="l72" ulx="390" uly="574" lrx="569" lry="588"/>
+            <zone xml:id="l73" ulx="390" uly="592" lrx="565" lry="605"/>
+            <zone xml:id="l74" ulx="390" uly="609" lrx="580" lry="624"/>
+            <zone xml:id="l75" ulx="389" uly="627" lrx="579" lry="639"/>
+            <zone xml:id="l76" ulx="389" uly="644" lrx="566" lry="657"/>
+            <zone xml:id="l77" ulx="391" uly="660" lrx="573" lry="672"/>
+            <zone xml:id="l78" ulx="392" uly="679" lrx="571" lry="692"/>
+            <zone xml:id="l79" ulx="392" uly="694" lrx="581" lry="710"/>
+            <zone xml:id="l80" ulx="393" uly="714" lrx="566" lry="728"/>
+            <zone xml:id="l81" ulx="391" uly="731" lrx="573" lry="747"/>
+            <zone xml:id="l82" ulx="393" uly="752" lrx="582" lry="765"/>
+            <zone xml:id="l83" ulx="393" uly="769" lrx="574" lry="788"/>
+            <zone xml:id="l84" ulx="391" uly="789" lrx="569" lry="803"/>
+            <zone xml:id="l85" ulx="392" uly="807" lrx="572" lry="819"/>
+            <zone xml:id="l86" ulx="392" uly="824" lrx="569" lry="838"/>
+            <zone xml:id="l87" ulx="394" uly="842" lrx="574" lry="853"/>
+            <zone xml:id="l88" ulx="393" uly="857" lrx="465" lry="872"/>
+            
+            <zone xml:id="l89" points=" 348,842  393,840  394,869  438,874  572,870  574,889  441,891  441,912  395,912  381,934  367,957  358,943  345,932 "/>
+            <zone xml:id="l90" ulx="438" uly="891" lrx="574" lry="905"/>
+            <zone xml:id="l91" ulx="390" uly="910" lrx="574" lry="924"/>
+            <zone xml:id="l92" ulx="388" uly="929" lrx="570" lry="940"/>
+            <zone xml:id="l93" ulx="389" uly="945" lrx="576" lry="958"/>
+            <zone xml:id="l94" ulx="389" uly="962" lrx="570" lry="974"/>
+            <zone xml:id="l95" ulx="390" uly="978" lrx="569" lry="993"/>
+            <zone xml:id="l96" ulx="391" uly="997" lrx="565" lry="1011"/>
+            <zone xml:id="l97" ulx="391" uly="1012" lrx="574" lry="1030"/>
+            <zone xml:id="l98" ulx="394" uly="1032" lrx="577" lry="1047"/>
+            <zone xml:id="l99" ulx="390" uly="1052" lrx="566" lry="1065"/>
+            <zone xml:id="l100" ulx="390" uly="1067" lrx="562" lry="1083"/>
+            
+            <zone xml:id="l101" ulx="616" uly="197" lrx="810" lry="214"/>
+            <zone xml:id="l102" ulx="616" uly="218" lrx="810" lry="231"/>
+            <zone xml:id="l103" ulx="617" uly="234" lrx="810" lry="246"/>
+            <zone xml:id="l104" ulx="616" uly="250" lrx="808" lry="266"/>
+            <zone xml:id="l105" ulx="619" uly="269" lrx="812" lry="284"/>
+            <zone xml:id="l106" ulx="617" uly="289" lrx="811" lry="299"/> 
+            <zone xml:id="l107" ulx="615" uly="304" lrx="816" lry="319"/>
+            <zone xml:id="l108" ulx="616" uly="322" lrx="809" lry="335"/>
+            <zone xml:id="l109" ulx="615" uly="340" lrx="811" lry="353"/>
+            <zone xml:id="l110" ulx="617" uly="358" lrx="810" lry="368"/> 
+            <zone xml:id="l111" ulx="614" uly="373" lrx="809" lry="389"/> 
+            <zone xml:id="l112" ulx="616" uly="393" lrx="814" lry="407"/> 
+            <zone xml:id="l113" ulx="617" uly="412" lrx="807" lry="427"/>
+            <zone xml:id="l114" ulx="618" uly="429" lrx="817" lry="445"/> 
+            <zone xml:id="l115" ulx="619" uly="449" lrx="808" lry="459"/>
+            <zone xml:id="l116" ulx="616" uly="463" lrx="809" lry="478"/>
+            <zone xml:id="l117" ulx="615" uly="483" lrx="809" lry="495"/>
+            <zone xml:id="l118" ulx="614" uly="498" lrx="809" lry="512"/>
+            <zone xml:id="l119" ulx="616" uly="518" lrx="812" lry="532"/>
+            <zone xml:id="l120" ulx="616" uly="536" lrx="805" lry="548"/>
+            <zone xml:id="l121" ulx="617" uly="552" lrx="815" lry="565"/>
+            <zone xml:id="l122" ulx="614" uly="570" lrx="816" lry="583"/>
+            <zone xml:id="l123" ulx="615" uly="588" lrx="805" lry="601"/>
+            <zone xml:id="l124" ulx="616" uly="604" lrx="815" lry="618"/>
+            <zone xml:id="l125" ulx="616" uly="623" lrx="810" lry="636"/>
+            <zone xml:id="l126" ulx="615" uly="640" lrx="813" lry="654"/>
+            <zone xml:id="l127" ulx="615" uly="658" lrx="809" lry="669"/>
+            <zone xml:id="l128" ulx="617" uly="671" lrx="816" lry="686"/>
+            <zone xml:id="l129" ulx="614" uly="690" lrx="814" lry="705"/>
+            <zone xml:id="l130" ulx="617" uly="710" lrx="804" lry="723"/>
+            <zone xml:id="l131" ulx="618" uly="724" lrx="790" lry="745"/>
+            <zone xml:id="l132" points=" 572,730  604,696  624,727  618,738  626,745  664,743  816,737  818,759  669,766  676,786  626,789  612,815  604,838  572,815  592,768 "/>
+            <zone xml:id="l133" ulx="671" uly="761" lrx="828" lry="779"/>
+            <zone xml:id="l134" ulx="619" uly="784" lrx="812" lry="796"/>
+            <zone xml:id="l135" ulx="617" uly="802" lrx="823" lry="814"/>
+            <zone xml:id="l136" ulx="616" uly="819" lrx="817" lry="832"/>
+            <zone xml:id="l137" ulx="616" uly="836" lrx="813" lry="847"/>
+            <zone xml:id="l138" ulx="616" uly="852" lrx="822" lry="868"/>
+            <zone xml:id="l139" ulx="615" uly="871" lrx="819" lry="884"/>
+            <zone xml:id="l140" ulx="616" uly="888" lrx="820" lry="902"/>
+            <zone xml:id="l141" ulx="616" uly="905" lrx="813" lry="918"/>
+            <zone xml:id="l142" ulx="616" uly="920" lrx="812" lry="937"/>
+            <zone xml:id="l143" ulx="615" uly="940" lrx="807" lry="956"/>
+            <zone xml:id="l144" ulx="616" uly="958" lrx="808" lry="976"/>
+            <zone xml:id="l145" ulx="617" uly="978" lrx="808" lry="990"/>
+            <zone xml:id="l146" ulx="616" uly="993" lrx="806" lry="1010"/>
+            <zone xml:id="l147" ulx="615" uly="1012" lrx="806" lry="1030"/>
+            <zone xml:id="l148" ulx="616" uly="1031" lrx="812" lry="1043"/>
+            <zone xml:id="l149" ulx="617" uly="1049" lrx="814" lry="1060"/>
+            <zone xml:id="l150" ulx="617" uly="1063" lrx="816" lry="1080"/>
+         </surface>
+         
+         <surface type="f102v">
+            <graphic url="lancelot_102v.JPEG"/>
+            <zone xml:id="l151" ulx="246" uly="201" lrx="435" lry="221"/>
+            <zone xml:id="l152" ulx="244" uly="218" lrx="431" lry="238"/>
+            <zone xml:id="l153" ulx="250" uly="240" lrx="432" lry="253"/>
+            <zone xml:id="l154" ulx="246" uly="252" lrx="432" lry="270"/>
+            <zone xml:id="l155" ulx="248" uly="273" lrx="439" lry="290"/>
+            <zone xml:id="l156" ulx="247" uly="292" lrx="433" lry="308"/> 
+            <zone xml:id="l157" ulx="247" uly="309" lrx="432" lry="322"/>
+            <zone xml:id="l158" ulx="246" uly="323" lrx="443" lry="344"/>
+            <zone xml:id="l159" ulx="248" uly="346" lrx="431" lry="358"/>
+            <zone xml:id="l160" ulx="244" uly="356" lrx="439" lry="378"/>
+            <zone xml:id="l161" ulx="249" uly="378" lrx="430" lry="396"/>
+            <zone xml:id="l162" ulx="245" uly="395" lrx="428" lry="416"/>
+            <zone xml:id="l163" ulx="247" uly="416" lrx="435" lry="432"/>
+            <zone xml:id="l164" ulx="244" uly="432" lrx="442" lry="453"/>
+            <zone xml:id="l165" ulx="246" uly="454" lrx="442" lry="469"/>
+            <zone xml:id="l166" ulx="245" uly="469" lrx="444" lry="488"/>
+            <zone xml:id="l167" ulx="247" uly="486" lrx="444" lry="504"/>
+            <zone xml:id="l168" ulx="246" uly="504" lrx="439" lry="524"/>
+            <zone xml:id="l169" ulx="244" uly="519" lrx="434" lry="545"/>
+            <zone xml:id="l170" ulx="246" uly="537" lrx="444" lry="559"/>
+            <zone xml:id="l171" ulx="247" uly="558" lrx="436" lry="575"/>
+            <zone xml:id="l172" ulx="244" uly="575" lrx="440" lry="596"/>
+            <zone xml:id="l173" ulx="245" uly="593" lrx="427" lry="613"/>
+            <zone xml:id="l174" ulx="244" uly="611" lrx="443" lry="629"/>
+            <zone xml:id="l175" ulx="247" uly="628" lrx="439" lry="643"/>
+            <zone xml:id="l176" ulx="246" uly="643" lrx="439" lry="662"/>
+            <zone xml:id="l177" ulx="247" uly="664" lrx="443" lry="681"/>
+            <zone xml:id="l178" ulx="247" uly="679" lrx="439" lry="699"/>
+            <zone xml:id="l179" ulx="252" uly="697" lrx="436" lry="715"/>
+            <zone xml:id="l180" ulx="247" uly="714" lrx="435" lry="733"/>
+            <zone xml:id="l181" ulx="249" uly="732" lrx="435" lry="751"/>
+            <zone xml:id="l182" ulx="246" uly="749" lrx="443" lry="770"/>
+            <zone xml:id="l183" ulx="248" uly="772" lrx="441" lry="788"/>
+            <zone xml:id="l184" ulx="244" uly="790" lrx="443" lry="809"/>
+            <zone xml:id="l185" ulx="247" uly="810" lrx="439" lry="827"/>
+            <zone xml:id="l186" ulx="248" uly="826" lrx="433" lry="844"/>
+            <zone xml:id="l187" ulx="247" uly="844" lrx="438" lry="862"/>
+            <zone xml:id="l188" ulx="245" uly="859" lrx="438" lry="878"/>
+            <zone xml:id="l189" ulx="246" uly="878" lrx="432" lry="895"/>
+            <zone xml:id="l190" ulx="243" uly="893" lrx="431" lry="913"/>
+            <zone xml:id="l191" ulx="245" uly="913" lrx="430" lry="928"/>
+            <zone xml:id="l192" ulx="246" uly="926" lrx="430" lry="948"/>
+            <zone xml:id="l193" ulx="244" uly="948" lrx="433" lry="965"/>
+            <zone xml:id="l194" ulx="246" uly="964" lrx="429" lry="984"/>
+            <zone xml:id="l195" ulx="245" uly="982" lrx="430" lry="1004"/>
+            <zone xml:id="l196" ulx="245" uly="1001" lrx="431" lry="1020"/>
+            <zone xml:id="l197" ulx="246" uly="1017" lrx="415" lry="1038"/> 
+            <zone xml:id="l198" ulx="245" uly="1039" lrx="435" lry="1056"/>
+            <zone xml:id="l199" ulx="245" uly="1055" lrx="436" lry="1072"/>
+            <zone xml:id="l200" ulx="247" uly="1072" lrx="436" lry="1090"/>
+            <zone xml:id="l201" ulx="481" uly="202" lrx="678" lry="223"/>
+            <zone xml:id="l202" ulx="484" uly="224" lrx="670" lry="240"/>
+            <zone xml:id="l203" ulx="483" uly="241" lrx="660" lry="257"/>
+            <zone xml:id="l204" ulx="485" uly="259" lrx="665" lry="275"/>
+            <zone xml:id="l205" ulx="482" uly="276" lrx="664" lry="295"/>
+            <zone xml:id="l206" ulx="482" uly="296" lrx="662" lry="312"/>
+            <zone xml:id="l207" ulx="483" uly="313" lrx="669" lry="329"/>
+            <zone xml:id="l208" ulx="480" uly="329" lrx="663" lry="345"/>
+            <zone xml:id="l209" ulx="481" uly="346" lrx="666" lry="365"/>
+            <zone xml:id="l210" ulx="483" uly="365" lrx="663" lry="382"/>
+            <zone xml:id="l211" ulx="483" uly="384" lrx="673" lry="400"/>
+            <zone xml:id="l212" ulx="482" uly="401" lrx="665" lry="419"/>
+            <zone xml:id="l213" ulx="484" uly="420" lrx="646" lry="435"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   
+   <text>
+      <body>
+         <pb facs="https://gallica.bnf.fr/ark:/12148/btv1b6000418r/f214.highres" n="1"/>
+         <cb n="1"/>
+         <lg n="1" type="rubrique">
+            <lb/><l n="1" facs="#l1">Co&tilde;ment une</l>
+            <lb/><l n="2" facs="#l2">damoi&slong;ele porte a&slong;on</l>
+            <lb/><l n="3" facs="#l3">col .i. e&slong;cu de de&slong;&slong;ous de</l>
+            <lb/><l n="4" facs="#l4">&slong;us &et7; e&slong;t le&slong;cu fendu</l>
+            <lb/><l n="5" facs="#l5">du lonc et en lune &par;tie</l>
+            <lb/><l n="6" facs="#l6">a .i. &chlr; paint &et7; en lau</l>
+            <lb/><l n="7" facs="#l7">tre une dame. &et7; li tient</l>
+            <lb/><l n="8" facs="#l8">le braz &slong;us le&slong;paule &et7; li</l>
+            <lb/><l n="9" facs="#l9">o&slong;te une ro&ydot;ne du col.</l>
+            <lb/><l n="10" facs="#l10">&et7; a la damoi&slong;ele en &slong;a</l>
+            <lb/><l n="11" facs="#l11">co&tilde;paignie .i. &chlr; qui a</l>
+            <lb/><l n="12" facs="#l12">le braz bri&slong;ie</l>
+         </lg>
+         
+         <pb facs="https://gallica.bnf.fr/ark:/12148/btv1b6000418r/f215.highres" n="2"/>
+         
+         <cb n="2"/>
+         
+         <lg n="2">
+            <figure facs="#enluminure">
+               <head>Miniature et bordure</head>
+            </figure>
+            <lb/><l n="13" facs="#l13"><g type="initiale" facs="#initiale">O</g>r di&slong;t li con</l>
+            <lb type="rejet"/><l n="14" facs="#l14">tes que la</l>
+            <lb/><l n="15" facs="#l15"><persName ref="#DamedeRohestoc">dame</persName> sen</l>
+            <lb/><l n="16" facs="#l16">&v;ait a la cort</l>
+            <lb/><l n="17" facs="#l17">le <persName ref="#Artus">ro&ydot; &amaj;rtus</persName></l>
+            <lb/><l n="18" facs="#l18">entre lui &et7;</l>
+            <lb/><l n="19" facs="#l19">&slong;a compaignie &slong;i che&v;au</l>
+            <lb type="rejet"/><l n="20" facs="#l20">che tant quele true&v;e le</l>
+            <lb/><l n="21" facs="#l21"><persName ref="#Artus">ro&ydot;</persName> a campeccorentin. Si la</l>
+            <lb/><l n="22" facs="#l22">recut li <persName ref="#Artus">ro&ydot;s</persName> &et7; <persName ref="#Guenievre">la ro&ydot;ne</persName> a</l>
+            <lb/><l n="23" facs="#l23">&mlt; grant &j;oie &et7; &mlt; se</l>
+            <lb/><l n="24" facs="#l24">pame de lui hounourer.</l>
+            <lb/><l n="25" facs="#l25">Car &mlt; e&slong;toit haute da</l>
+            <lb type="rejet"/><l n="26" facs="#l26">me. la nuit apres &slong;ouper</l>
+            <lb/><l n="27" facs="#l27">furent entre le <persName ref="#Artus">ro&ydot;</persName> &et7; la</l>
+            <lb/><l n="28" facs="#l28"><persName ref="#Guenievre">ro&ydot;ne</persName> &et7; la <persName ref="#DamedeRohestoc">dame de &rmaj;ohe&slong;<c type="hyphen"/></persName></l>
+            <lb type="rejet"/><l n="29" facs="#l29">toc a&slong;&slong;is en une couche. &slong;i</l>
+            <lb/><l n="30" facs="#l30">li demandent quel be&slong;oi&tilde;g</l>
+            <lb/><l n="31" facs="#l31">ele a&v;oit eu, qui de &slong;i loi&tilde;g</l>
+            <lb/><l n="32" facs="#l32">e&slong;toit a court &v;enue &et7; ele</l>
+            <lb/><l n="33" facs="#l33">lor en dit la &v;erite. Sire fet</l>
+            <lb/><l n="34" facs="#l34">ele cis &chlr;s qui la e&slong;t,</l>
+            <lb/><l n="35" facs="#l35">me guerroia. &slong;i li mou&slong;tre</l>
+            <lb/><l n="36" facs="#l36"><persName ref="#Segurades">&smaj;egurades</persName>. &slong;i li de&v;i&slong;e les</l>
+            <lb/><l n="37" facs="#l37">con&v;enances, lautrier &slong;i</l>
+            <lb type="rejet"/><l n="38" facs="#l38">re fait elle &slong;i mamena &cmaj;a</l>
+            <lb type="rejet"/><l n="39" facs="#l39"><persName ref="#CaninsliNains">nins li &nmaj;ains</persName> qui la e&slong;t .i.</l>
+            <lb/><l n="40" facs="#l40">&chlr; oui il di&slong;t toutes les</l>
+            <lb/><l n="41" facs="#l41">hontes que len puet ahom</l>
+            <lb type="rejet"/><l n="42" facs="#l42">me dire &et7; cil &chlr;s &slong;e com</l>
+            <lb type="rejet"/><l n="43" facs="#l43">bati a <persName ref="#Segurades">&smaj;egurades</persName> por moi</l>
+            <lb/><l n="44" facs="#l44">tant que il loutra &et7; pour</l>
+            <lb/><l n="45" facs="#l45">ces meismes con&v;enan</l>
+            <lb type="rejet"/><l n="46" facs="#l46">ces. Quant &j;e le &v;i conq&ui;s</l>
+            <lb/><l n="47" facs="#l47">&slong;i enoi tel &j;oie que &j;en ou</l>
+            <lb type="rejet"/><l n="48" facs="#l48">bliai le &chlr; qui conquis</l>
+            <lb/><l n="49" facs="#l49">la&v;oit &et7; il &slong;en ala &slong;i conqu&tilde;s</l>
+            <lb/><l n="50" facs="#l50">miles de mes gens ne sot</l>
+         </lg>
+         
+         <cb n="3"/>
+         
+         <lg n="3">
+            <lb/><l n="51" facs="#l51">quil de&v;int &slong;i &slong;ai bien</l>
+            <lb/><l n="52" facs="#l52">que ce fu pour la honte</l>
+            <lb/><l n="53" facs="#l53">que <persName ref="#CaninsliNains">&cmaj;anins</persName> li dit: &slong;i e&slong;<c type="hyphen"/></l>
+            <lb type="rejet"/><l n="54" facs="#l54">toie cil &v;enue pour oir</l>
+            <lb/><l n="55" facs="#l55">aucunes en&slong;eignes de</l>
+            <lb/><l n="56" facs="#l56">de lui. Car caiens repai</l>
+            <lb type="rejet"/><l n="57" facs="#l57">rent tout li preudo&tilde;me.</l>
+            <lb/><l n="58" facs="#l58">Lors li demande la <persName ref="#Guenievre">ro&ydot;<c type="hyphen"/></persName></l>
+            <lb type="rejet"/><l n="59" facs="#l59">ne le&slong;tat &et7; la con&slong;tena&tilde;<c type="hyphen"/></l>
+            <lb type="rejet"/><l n="60" facs="#l60">ce du &chlr;. Et quant</l>
+            <lb/><l n="61" facs="#l61">ele li a de&v;i&slong;e &slong;i li di&slong;t</l>
+            <lb/><l n="62" facs="#l62">que ele ne &slong;cet qui il</l>
+            <lb/><l n="63" facs="#l63">e&slong;t &slong;e ce ne&slong;t me &slong;ire <persName ref="#Gauvain">.&G;.</persName></l>
+            <lb/><l n="64" facs="#l64">Car il e&slong;t fait ele pieca</l>
+            <lb/><l n="65" facs="#l65">partis de court. et quiert</l>
+            <lb/><l n="66" facs="#l66">i. des plus preudo&tilde;mes</l>
+            <lb/><l n="67" facs="#l67">du monde &slong;oi  umti&slong;<c type="hyphen"/></l>
+            <lb type="rejet"/><l n="68" facs="#l68">me de &chlr;s. Diex fait</l>
+            <lb/><l n="69" facs="#l69">la <persName ref="#DamedeRohestoc">dame</persName> &slong;e ce e&slong;t me</l>
+            <lb type="rejet"/><l n="70" facs="#l70">&slong;ire <persName ref="#Gauvain">&gau;.</persName> dont sui &j;e</l>
+            <lb type="rejet"/><l n="71" facs="#l71">honnie. Car onques ho&tilde;<c type="hyphen"/></l>
+            <lb/><l n="72" facs="#l72">nour ne li fiz comme</l>
+            <lb/><l n="73" facs="#l73">&j;e &v;ou&slong;i&slong;&slong;e miex e&slong;tre</l>
+            <lb/><l n="74" facs="#l74">morte. Li <persName ref="#Artus">ro&ydot;s</persName> &et7; la <persName ref="#Guenievre">ro&ydot;<c type="hyphen"/></persName></l>
+            <lb type="rejet"/><l n="75" facs="#l75">ne ne len &slong;e&v;ent de pl&us9;</l>
+            <lb/><l n="76" facs="#l76">a&slong;&slong;ener &slong;i en lai&slong;&slong;ent</l>
+            <lb/><l n="77" facs="#l77">la parole a tant &slong;i &slong;en</l>
+            <lb/><l n="78" facs="#l78">re&v;ient la <persName ref="#DamedeRohestoc">dame</persName> et &slong;a</l>
+            <lb/><l n="79" facs="#l79">compaignie a&slong;on ho&slong;tel.</l>
+            <lb/><l n="80" facs="#l80">pour repo&slong;er car &mlt;</l>
+            <lb/><l n="81" facs="#l81">ert la&slong;&slong;ee. Et <persName ref="#CaninsliNains">&cmaj;anins</persName> li</l>
+            <lb/><l n="82" facs="#l82">&nmaj;ains prie le <persName ref="#senechal">&slong;ene&slong;chal</persName></l>
+            <lb/><l n="83" facs="#l83">encui garde il e&slong;toit &que;</l>
+            <lb/><l n="84" facs="#l84">il li face compaignie</l>
+            <lb/><l n="85" facs="#l85">tant que il ait parle</l>
+            <lb/><l n="86" facs="#l86">a la ro&ydot;ne et il &slong;i fait</l>
+            <lb/><l n="87" facs="#l87">car &mlt; e&slong;t preudoms</l>
+            <lb/><l n="88" facs="#l88">et &slong;ages.</l>
+         </lg>
+         
+         <lg n="4">
+            <lb/><l n="89" facs="#l89">&pdm; Tant en &v;ienne&tilde;t</l>
+            <lb/><l n="90" facs="#l90">de&v;ant la <persName ref="#Guenievre">ro&ydot;ne</persName></l>
+            <lb/><l n="91" facs="#l91">&slong;i li crie merci li <persName ref="#CaninsliNains">&nmaj;ains</persName></l>
+            <lb/><l n="92" facs="#l92">&et7; di&slong;t. ha&deuxpoints; dame &slong;ecou</l>
+            <lb type="rejet"/><l n="93" facs="#l93">rez moi. Car en &v;ous e&slong;t</l>
+            <lb/><l n="94" facs="#l94">touz li &slong;ecours &et7; li con</l>
+            <lb type="rejet"/><l n="95" facs="#l95">&slong;eulz. Et la <persName ref="#Guenievre">ro&ydot;ne</persName> di&slong;t de</l>
+            <lb/><l n="96" facs="#l96">quoi. dame fait il &j;e</l>
+            <lb/><l n="97" facs="#l97">sui <persName ref="#CaninsliNains">Canins li Nains</persName> q&ui;</l>
+            <lb/><l n="98" facs="#l98">menai le &chlr; a la da</l>
+            <lb type="rejet"/><l n="99" facs="#l99"><persName ref="#DamedeRohestoc">me de &rmaj;ohestoc</persName>. Celui</l>
+            <lb/><l n="100" facs="#l100">qui sa bataille li fi&slong;t</l>
+         </lg>
+         
+         <cb n="4"/>
+         
+         <lg n="5">
+            <lb/><l n="101" facs="#l101">&slong;i cuidai &slong;anz faille que</l> 
+            <lb/><l n="102" facs="#l102">ce fu&slong;t li plus mau&v;ais</l>
+            <lb/><l n="103" facs="#l103">homs du monde &slong;i le &v;a&tilde;</l>
+            <lb/><l n="104" facs="#l104">po&v;ai pour le &slong;ambla&tilde;t</l>
+            <lb/><l n="105" facs="#l105">quil fai&slong;oit de mau&v;ais</l>
+            <lb/><l n="106" facs="#l106">cil. Ore &slong;i <supplied reason="damage">d</supplied>i&slong;t ma dame</l>
+            <lb/><l n="107" facs="#l107">quele la perdu par moi.</l>
+            <lb/><l n="108" facs="#l108">&slong;i quelle mei&slong;mes lira</l>
+            <lb/><l n="109" facs="#l109">querant par toutes ter<c type="hyphen"/></l>
+            <lb type="rejet"/><l n="110" facs="#l110">res. &slong;i me trainera <damage agent="rubbing">ap&tilde;s</damage></l>
+            <lb/><l n="111" facs="#l111">lui. et a touz <damage agent="rubbing">ceulz que</damage></l>
+            <lb/><l n="112" facs="#l112">elle enconterra me <damage agent="rubbing">fera</damage></l>
+            <lb/><l n="113" facs="#l113">regarder a mer&v;eilles</l>
+            <lb/><l n="114" facs="#l114">Car &j;e aurai i. <damage agent="rubbing">che&v;e&slong;tre</damage></l>
+            <lb/><l n="115" facs="#l115">el col lie: a la crine de &slong;o&tilde;</l>
+            <lb/><l n="116" facs="#l116">palefroi &et7; ain&slong;&slong;i en cou</l>
+            <lb type="rejet"/><l n="117" facs="#l117">tes les &v;iles quele &v;end</l>
+            <lb type="rejet"/><l n="118" facs="#l118">ra. et ain&slong;&slong;i ma ele a</l>
+            <lb type="rejet"/><l n="119" facs="#l119">mene puis quele nuit</l>
+            <lb/><l n="120" facs="#l120">de &slong;on pa&ydot;s. et &j;e &slong;eroie</l>
+            <lb/><l n="121" facs="#l121">mors &slong;ain&slong;&slong;i me menoit</l>
+            <lb/><l n="122" facs="#l122">plus. &slong;i &v;ous requier da</l>
+            <lb type="rejet"/><l n="123" facs="#l123">me que &v;ous &ydot;metez</l>
+            <lb/><l n="124" facs="#l124">con&slong;eil. Car toute&v;oies</l>
+            <lb/><l n="125" facs="#l125">&slong;ui &j;e gentilz homs co&tilde;<c type="hyphen"/></l>
+            <lb type="rejet"/><l n="126" facs="#l126">ment que &j;e &slong;oie chetis</l>
+            <lb/><l n="127" facs="#l127">de cors. Et la <persName ref="#Guenievre">ro&ydot;ne</persName> re&slong;<c type="hyphen"/></l>
+            <lb type="rejet"/><l n="128" facs="#l128">pont que &slong;i feroit ele. car</l>
+            <lb/><l n="129" facs="#l129">&v;ous &slong;erez deli&v;res ainz</l>
+            <lb/><l n="130" facs="#l130">que &uostre; <persName ref="#DamedeRohestoc">dame</persName> &slong;en &v;ait.</l>
+            <lb/><l n="131" facs="#l131">fait fail &granz; mercis.</l>
+         </lg>
+         
+         <lg n="6">
+            <lb/><l n="132" facs="#l132">&pdm; Tant &slong;en &v;ienne&tilde;t</l>
+            <lb/><l n="133" facs="#l133">a lo&slong;tel entre le <persName ref="#CaninsliNains">Nai&tilde;</persName></l>
+            <lb/><l n="134" facs="#l134">et le <persName ref="#senechal">&slong;ene&slong;chal</persName>. et lende<c type="hyphen"/></l>
+            <lb type="rejet"/><l n="135" facs="#l135">main re&v;int &v;eoir le <persName ref="#Artus">ro&ydot;</persName></l>
+            <lb/><l n="136" facs="#l136">et la <persName ref="#Guenievre">ro&ydot;ne</persName>. si li demanda</l>
+            <lb/><l n="137" facs="#l137">i. don la <persName ref="#Guenievre">ro&ydot;ne</persName>. et ele li</l>
+            <lb/><l n="138" facs="#l138">donna. &v;ous ma&v;ez fait</l>
+            <lb/><l n="139" facs="#l139">ele donne que &v;ous par</l>
+            <lb type="rejet"/><l n="140" facs="#l140">donroiz au <persName ref="#CaninsliNains">Nain</persName> &uostre; mau</l>
+            <lb/><l n="141" facs="#l141">talent. dame fait ele &j;e</l>
+            <lb/><l n="142" facs="#l142">ne hemie le <persName ref="#CaninsliNains">&nmaj;ain</persName> pour</l>
+            <lb/><l n="143" facs="#l143">&slong;oi mei&slong;mes. Mais il a</l>
+            <lb/><l n="144" facs="#l144">caiens une <persName ref="#niece">pucele</persName> qui</l>
+            <lb/><l n="145" facs="#l145">e&slong;t &slong;a niece et ma cou&slong;i<c type="hyphen"/></l>
+            <lb type="rejet"/><l n="146" facs="#l146">ne &slong;i li priai a &mlt; gra&tilde;t</l>
+            <lb/><l n="147" facs="#l147">be&slong;oing quelle le ma&slong;t</l>
+            <lb/><l n="148" facs="#l148">combatre ce&slong;t &chlr; qui</l>
+            <lb/><l n="149" facs="#l149">&slong;on ami e&slong;t pour moi &et7;</l>
+            <lb/><l n="150" facs="#l150">ele di&slong;t quele renieroit</l>
+         </lg>
+         
+         
+         <pb facs="#lhttps://gallica.bnf.fr/ark:/12148/btv1b6000418r/f216.highres" n="3"/>
+         
+         <cb n="5"/>
+         
+         <lg n="7">
+            <lb/><l n="151" facs="#l151">aincois dieu et &j;e le cui</l>
+            <lb/><l n="152" facs="#l152">dai tant faire e&slong;cri&v;er</l>
+            <lb/><l n="153" facs="#l153">quele fei&slong;t &slong;on ami a</l>
+            <lb type="rejet"/><l n="154" facs="#l154">ler en la queste du &chlr;</l>
+            <lb/><l n="155" facs="#l155">qui <persName ref="#Segurades">&smaj;eguardes</persName> conqui&slong;t</l>
+            <lb/><l n="156" facs="#l156">pour &slong;on o<supplied reason="damage">nc</supplied>le deli&v;rer</l>
+            <lb/><l n="157" facs="#l157">Car &j;e la courouceroie</l>
+            <lb/><l n="158" facs="#l158">&v;olentiers de la &v;iens &que;l</l>
+            <lb/><l n="159" facs="#l159">le plus aime. En non</l>
+            <lb/><l n="160" facs="#l160">dieu fait la <persName ref="#Guenievre">ro&ydot;ne</persName> &slong;elle</l>
+            <lb/><l n="161" facs="#l161">faut a&slong;on oncle, dont</l>
+            <lb/><l n="162" facs="#l162">Nest il riens qui hair</l>
+            <lb/><l n="163" facs="#l163">ne la doie. Lors apele le</l>
+            <lb/><l n="164" facs="#l164"><persName ref="#CaninsliNains">Nain</persName> &slong;i li di&slong;t: Nains fait</l>
+            <lb/><l n="165" facs="#l165">ele &j;e ta&isup; pourchacie ta de</l>
+            <lb type="rejet"/><l n="166" facs="#l166">li&v;rance &slong;e &uostre; <persName ref="#niece">niece</persName> helt</l>
+            <lb/><l n="167" facs="#l167">tant faire quele en&v;oit</l>
+            <lb/><l n="168" facs="#l168">&slong;on ami querre celui q&ui;</l>
+            <lb/><l n="169" facs="#l169">&v;ainqui la bataille ne</l>
+            <lb/><l n="170" facs="#l170">autre merci ni puis trou</l>
+            <lb type="rejet"/><l n="171" facs="#l171">&v;er. Certes dame fait</l>
+            <lb/><l n="172" facs="#l172"><persName ref="#CaninsliNains">li nains</persName> &j;e ne cuit quele</l>
+            <lb/><l n="173" facs="#l173">le face &j;a. Mais toute</l>
+            <lb/><l n="174" facs="#l174">&v;oies len &slong;aierai &j;e. lors.</l>
+            <lb/><l n="175" facs="#l175">Lors &v;ient <persName ref="#CaninsliNains">li nains</persName> a &slong;a</l>
+            <lb/><l n="176" facs="#l176"><persName ref="#niece">niece</persName> &slong;i li di&slong;t: bele niece</l>
+            <lb/><l n="177" facs="#l177">&j;e &slong;ui mort &slong;e &v;ous ne me</l>
+            <lb/><l n="178" facs="#l178">pre&slong;tez <persName ref="#Hector">&hmaj;e&slong;tor</persName>. a querre le</l>
+            <lb/><l n="179" facs="#l179">&chlr; qui <persName ref="#Segurades">&smaj;egurades</persName> con</l>
+            <lb type="rejet"/><l n="180" facs="#l180">qui&slong;t. ou &slong;e ce non ma</l>
+            <lb/><l n="181" facs="#l181">dame me menra &slong;i com</l>
+            <lb type="rejet"/><l n="182" facs="#l182">me ele a cou&slong;tume et ele</l>
+            <lb/><l n="183" facs="#l183">li re&slong;pont que &j;a diex ne</l>
+            <lb/><l n="184" facs="#l184">li ai&slong;. quant &j;a <persName ref="#Hector">&hmaj;e&slong;tor</persName></l>
+            <lb/><l n="185" facs="#l185">&ydot;ra par &slong;on congie ne &par;</l>
+            <lb/><l n="186" facs="#l186">&slong;on los.Et &quant; <persName ref="#CaninsliNains">li &nmaj;ains</persName></l>
+            <lb/><l n="187" facs="#l187">lentent &slong;i a tel paour &que;</l>
+            <lb/><l n="188" facs="#l188">par un pou quil ne &slong;e pa&slong;</l>
+            <lb/><l n="189" facs="#l189">me. Et &v;int a la <persName ref="#Guenievre">ro&ydot;ne</persName>.</l>
+            <lb/><l n="190" facs="#l190">&slong;i li di&slong;t que nul con&slong;eil</l>
+            <lb/><l n="191" facs="#l191">ni puet trou&v;er. dame</l>
+            <lb/><l n="192" facs="#l192">fait cele de <persName ref="#DamedeRohestoc">&rmaj;ohestoc</persName> &j;e le</l>
+            <lb/><l n="193" facs="#l193">&slong;a&v;oie &bien;. Ce&slong;t la plus</l>
+            <lb/><l n="194" facs="#l194">de&slong;loiaus creature qui</l>
+            <lb/><l n="195" facs="#l195">onques fu&slong;t. Or ne &v;o&us9;</l>
+            <lb/><l n="196" facs="#l196">chaut fait la <persName ref="#Guenievre">ro&ydot;ne</persName>. &j;e</l>
+            <lb/><l n="197" facs="#l197">li ferai &slong;a fo<add type="correction">lie chier</add></l>
+            <lb/><l n="198" facs="#l198">comparer. puis li a dit</l>
+            <lb/><l n="199" facs="#l199">a con&slong;eil &v;ous ne &v;ous</l>
+            <lb/><l n="200" facs="#l200">mou&v;eroiz demain. et</l>
+         </lg>
+         
+         <cb n="6"/>
+         
+         <lg n="8">
+            <lb/><l n="201" facs="#l201">a nuit le dite&ssup; a &uostre; me&slong;<c type="hyphen"/></l>
+            <lb type="rejet"/><l n="202" facs="#l202">niee que moult &v;ous</l>
+            <lb/><l n="203" facs="#l203">ai prie de remanoir.</l>
+            <lb/><l n="204" facs="#l204">Mais &v;ous ne remain<c type="hyphen"/></l>
+            <lb type="rejet"/><l n="205" facs="#l205">droiz en nule maniere</l>
+            <lb/><l n="206" facs="#l206">&et7; &j;e la dece&v;rai &slong;i bele</l>
+            <lb type="rejet"/><l n="207" facs="#l207">ment comme &v;ous &v;er<c type="hyphen"/></l>
+            <lb/><l n="208" facs="#l208">roiz. lors sen &v;ient la</l>
+            <lb/><l n="209" facs="#l209"><persName ref="#DamedeRohestoc">dame</persName> a &slong;on o&slong;tel &et7; di&slong;t</l>
+            <lb/><l n="210" facs="#l210">la <persName ref="#DamedeRohestoc">dame</persName> a &slong;a mai&slong;niee</l>
+            <lb/><l n="211" facs="#l211">ce que la <persName ref="#Guenievre">ro&ydot;ne</persName> li a&v;oit</l>
+            <lb/><l n="212" facs="#l212">dit. mais &j;e ne remai&tilde;<c type="hyphen"/></l>
+            <lb type="rejet"/><l n="213" facs="#l213">droie mie fait ele.</l>
+         </lg>
+         
+      </body>
+   </text>
+</TEI>
